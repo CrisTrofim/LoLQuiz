@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>League of Legends Quiz</title>
+    <link rel="stylesheet" href="style.css"> <!-- Lien vers le fichier CSS externe -->
+</head>
+
+<body>
+    <div class="header">
+        <!-- Remplacer l'image de Tristana par le logo de League of Legends -->
+        <img src="https://brand.riotgames.com/static/a91000434ed683358004b85c95d43ce0/8a20a/lol-logo.png"
+            alt="League of Legends Logo" id="lol-logo">
+        <div class="score-timer">
+            <p id="score">Score: 0/165</p>
+            <p id="timer">Time Left: 25:00</p>
+        </div>
+    </div>
+
+    <h1>League of Legends Quiz</h1>
+
+    <div class="question-container">
+        <div class="description">
+            <p id="description">Loading...</p>
+        </div>
+        <div class="ultimate-image">
+            <img id="ultimateImage" src="" alt="Ultimate Image" style="display:none;">
+        </div>
+        <div id="feedback" class="feedback"></div> <!-- Zone de feedback "Correct"/"Wrong" -->
+    </div>
+
+    <div class="input-group">
+        <input type="text" id="championInput" placeholder="Enter the champion's name">
+        <button onclick="checkAnswer()">Submit</button>
+    </div>
+
+    <script src="quiz.js"></script>
+</body>
+
+</html>

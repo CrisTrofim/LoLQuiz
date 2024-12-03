@@ -1,0 +1,106 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    position: relative;
+}
+
+header {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}
+
+#lol-logo {
+    width: 50px;
+    height: 50px;
+}
+
+.score-timer {
+    text-align: right;
+    margin-top: 10px;
+}
+
+h1 {
+    color: #333;
+    margin-top: 80px;
+}
+
+.question-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 80%;
+}
+
+.description {
+    font-style: italic;
+    text-align: center; /* Centrer le texte */
+    margin-bottom: 10px;
+    line-height: 1.6;
+    font-size: 1.2em;
+    width: 100%;
+    max-width: 600px; /* Limiter la largeur pour un meilleur rendu */
+}
+
+.ultimate-image img {
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.input-group input {
+    padding: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.input-group button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.input-group button:hover {
+    background-color: #0056b3;
+}
+
+#score, #timer {
+    font-size: 18px;
+    color: #333;
+}
+
+#feedback {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+#timer {
+    margin-top: 20px;
+}
