@@ -1,11 +1,11 @@
 let quizData = [];
 let currentIndex = 0;
 let score = 0;
-let timer = 25 * 60; // 25 minutes en secondes
+let timer = 30 * 60; // 25 minutes en secondes
 let totalQuestions = 0; // Nombre total de champions dans le quiz
 let totalAnswers = 0; // Nombre de réponses données (correctes ou non)
 let interval; // Déclare l'intervalle pour pouvoir le nettoyer
-let questionLimit = 169; // Modifier ce nombre pour tester avec moins de questions
+let questionLimit = 4; // Modifier ce nombre pour tester avec moins de questions
 let finalScoreShown = false;
 let isHardMode = false;
 
