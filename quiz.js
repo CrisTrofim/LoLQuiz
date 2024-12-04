@@ -5,7 +5,7 @@ let timer = 30 * 60; // 25 minutes en secondes
 let totalQuestions = 0; // Nombre total de champions dans le quiz
 let totalAnswers = 0; // Nombre de réponses données (correctes ou non)
 let interval; // Déclare l'intervalle pour pouvoir le nettoyer
-let questionLimit = 4; // Modifier ce nombre pour tester avec moins de questions
+let questionLimit = 169; // Modifier ce nombre pour tester avec moins de questions
 let finalScoreShown = false;
 let isHardMode = false;
 
@@ -122,7 +122,7 @@ function showFinalScore() {
     document.getElementById("restart-btn").style.display = "block"; // Affiche le bouton de redémarrage
     totalAnswers=2
     // Vérifier si le joueur a un score de 100%
-    if (score === totalAnswers) {
+    if (score === questionLimit) {
         // Créer un élément image pour le gif
         const gifElement = document.createElement("img");
         gifElement.src = "https://media.tenor.com/CW-0A0q-6ksAAAAM/touching-grass.gif";
