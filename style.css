@@ -13,7 +13,7 @@ body {
     position: relative;
 }
 
-header {
+.header {
     width: 100%;
     padding: 10px;
     display: flex;
@@ -21,16 +21,23 @@ header {
     position: absolute;
     top: 10px;
     left: 20px;
+    align-items: center;  /* Assure que les éléments sont bien alignés */
 }
 
 #lol-logo {
-    width: 50px;
-    height: 50px;
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;  /* Ajouter un peu d'espace entre le logo et le score */
 }
 
 .score-timer {
     text-align: right;
-    margin-top: 10px;
+    margin-right: 100px;
+    display: flex;  /* Assure l'alignement horizontal */
+    justify-content: space-between;
+    width: 180px;  /* Réduire la largeur pour éviter l'extension excessive */
+    max-width: 50%; /* Empêche l'extension au-delà de la moitié de l'écran */
+    overflow: hidden; /* S'assure que rien ne déborde */
 }
 
 h1 {
@@ -99,8 +106,63 @@ h1 {
 #feedback {
     font-size: 18px;
     margin-top: 10px;
+    font-weight: bold;
+    color: #333;
 }
 
 #timer {
     margin-top: 20px;
 }
+
+#final-score {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#restart-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none; /* Cache le bouton au départ */
+}
+
+#restart-btn:hover {
+    background-color: #218838;
+}
+
+#hard-mode-btn {
+    background-color: #e74c3c; /* Rouge vif */
+    color: white; /* Texte blanc */
+    padding: 10px 20px; /* Espacement autour du texte */
+    font-size: 16px; /* Taille de police */
+    font-weight: bold; /* Mettre en gras */
+    border: none; /* Retirer la bordure */
+    border-radius: 5px; /* Coins arrondis */
+    cursor: pointer; /* Change le curseur en main */
+    transition: background-color 0.3s, transform 0.2s; /* Ajout d'une transition pour un effet fluide */
+    margin-top: 20px; /* Ajouter de l'espace au-dessus du bouton */
+    text-align: center; /* Centrer le texte */
+    margin-bottom: 20px;
+}
+
+/* Effet au survol */
+#hard-mode-btn:hover {
+    background-color: #c0392b; /* Un rouge un peu plus foncé lors du survol */
+    transform: scale(1.05); /* Légère agrandissement lors du survol */
+}
+
+/* Effet au clic */
+#hard-mode-btn:active {
+    background-color: #d35400; /* Un orange vif lorsque l'on clique */
+    transform: scale(0.95); /* Réduction légèrement à la pression */
+}
+
+

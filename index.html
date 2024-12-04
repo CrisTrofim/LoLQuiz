@@ -10,7 +10,6 @@
 
 <body>
     <div class="header">
-        <!-- Remplacer l'image de Tristana par le logo de League of Legends -->
         <img src="https://brand.riotgames.com/static/a91000434ed683358004b85c95d43ce0/8a20a/lol-logo.png"
             alt="League of Legends Logo" id="lol-logo">
         <div class="score-timer">
@@ -20,7 +19,6 @@
     </div>
 
     <h1>League of Legends Quiz</h1>
-
     <div class="question-container">
         <div class="description">
             <p id="description">Loading...</p>
@@ -31,10 +29,15 @@
         <div id="feedback" class="feedback"></div> <!-- Zone de feedback "Correct"/"Wrong" -->
     </div>
 
+    <button id="hard-mode-btn" onclick="toggleHardMode()">Enable Hard Mode</button>
+
     <div class="input-group">
         <input type="text" id="championInput" placeholder="Enter the champion's name">
         <button onclick="checkAnswer()">Submit</button>
     </div>
+
+    <div id="final-score" style="display:block;"></div> <!-- Ajouter cette ligne pour le score final -->
+    <button id="restart-btn" style="display:block" onclick="restartQuiz()">Restart Quiz</button>
 
     <script src="quiz.js"></script>
 </body>

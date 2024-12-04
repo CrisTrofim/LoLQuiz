@@ -1,5 +1,11 @@
 import requests
 import json
+import re
+
+# Fonction pour supprimer les balises HTML
+def remove_html_tags(text):
+    clean = re.compile("<.*?>")
+    return re.sub(clean, "", text)
 
 # Configuration de la version et de la langue
 patch_version = "14.23.1"
@@ -28,6 +34,9 @@ if champions_data:
 
             # Remplacer le nom du champion dans la description par "This champion"
             ultimate_description = ultimate["description"].replace(champ_info["name"], "This champion")
+            
+            # Nettoyer la description des balises HTML
+            ultimate_description = remove_html_tags(ultimate_description)
             
             # Récupérer l'image de l'ultime
             ultimate_image = f"https://ddragon.leagueoflegends.com/cdn/{patch_version}/img/spell/{ultimate['id']}.png"

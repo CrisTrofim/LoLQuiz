@@ -31,7 +31,7 @@
     },
     {
         "name": "Amumu",
-        "description": "This champion entangles surrounding enemy units in bandages, applying his <keywordMajor>Curse</keywordMajor>, damaging and stunning them.",
+        "description": "This champion entangles surrounding enemy units in bandages, applying his Curse, damaging and stunning them.",
         "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/CurseoftheSadMummy.png"
     },
     {
@@ -56,7 +56,7 @@
     },
     {
         "name": "Aurelion Sol",
-        "description": "Falling Star: This champion crashes a star into the earth. This impact deals magic damage and stuns enemies while also granting Stardust for each enemy champion it hits. Gathering enough Stardust transforms This champion's next Falling Star into The Skies Descend.<br><br>The Skies Descend: This champion drags a giant star down from the heavens with an increased impact zone and increased damage, knocking up enemies rather than stunning them. A shockwave then spreads from the edge of the impact zone, which damages and slows the enemies it hits. Stardust increases the impact area of both Falling Star and The Skies Descend.",
+        "description": "Falling Star: This champion crashes a star into the earth. This impact deals magic damage and stuns enemies while also granting Stardust for each enemy champion it hits. Gathering enough Stardust transforms This champion's next Falling Star into The Skies Descend.The Skies Descend: This champion drags a giant star down from the heavens with an increased impact zone and increased damage, knocking up enemies rather than stunning them. A shockwave then spreads from the edge of the impact zone, which damages and slows the enemies it hits. Stardust increases the impact area of both Falling Star and The Skies Descend.",
         "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/AurelionSolR.png"
     },
     {
@@ -131,7 +131,7 @@
     },
     {
         "name": "Diana",
-        "description": "This champion reveals and draws in all nearby enemies and slows them.<br><br>If This champion pulls in one or more enemy champions, the moonlight crashes down onto her after a short delay, dealing magic damage in an area around her, increased for each target beyond the first pulled.",
+        "description": "This champion reveals and draws in all nearby enemies and slows them.If This champion pulls in one or more enemy champions, the moonlight crashes down onto her after a short delay, dealing magic damage in an area around her, increased for each target beyond the first pulled.",
         "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/DianaR.png"
     },
     {
@@ -211,7 +211,7 @@
     },
     {
         "name": "Gwen",
-        "description": "This champion hurls a needle that slows enemies hit, deals magic damage, and applies A Thousand Cuts to champions hit. <br><br>This ability can be cast up to two more times, with each cast throwing additional needles and dealing more damage. This champion must hit an enemy between each cast to unlock the next one. ",
+        "description": "This champion hurls a needle that slows enemies hit, deals magic damage, and applies A Thousand Cuts to champions hit. This ability can be cast up to two more times, with each cast throwing additional needles and dealing more damage. This champion must hit an enemy between each cast to unlock the next one. ",
         "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/GwenR.png"
     },
     {
@@ -261,7 +261,7 @@
     },
     {
         "name": "Jayce",
-        "description": "Hammer Stance: Transforms the Mercury Hammer into the Mercury Cannon gaining new abilities and increased range. The first attack in this form reduces the target's Armor and Magic Resist.<br><br>Cannon Stance: Transforms the Mercury Cannon into the Mercury Hammer gaining new abilities and increasing Armor and Magic Resist. The first attack in this form deals additional magic damage.",
+        "description": "Hammer Stance: Transforms the Mercury Hammer into the Mercury Cannon gaining new abilities and increased range. The first attack in this form reduces the target's Armor and Magic Resist.Cannon Stance: Transforms the Mercury Cannon into the Mercury Hammer gaining new abilities and increasing Armor and Magic Resist. The first attack in this form deals additional magic damage.",
         "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/JayceStanceHtG.png"
     },
     {
@@ -321,7 +321,7 @@
     },
     {
         "name": "Kha'Zix",
-        "description": "Each rank allows This champion to evolve one of his abilities, giving it a unique additional effect. When activated, This champion becomes <font color='#91d7ee'>Invisible</font>, triggering Unseen Threat and increasing Move Speed. If he chooses to <font color='#00DD33'>Evolve Adaptive Cloaking</font>, Void Assault gains increased <font color='#91d7ee'>Invisibility</font> duration, and an additional use.",
+        "description": "Each rank allows This champion to evolve one of his abilities, giving it a unique additional effect. When activated, This champion becomes Invisible, triggering Unseen Threat and increasing Move Speed. If he chooses to Evolve Adaptive Cloaking, Void Assault gains increased Invisibility duration, and an additional use.",
         "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/KhazixR.png"
     },
     {
@@ -416,7 +416,7 @@
     },
     {
         "name": "Wukong",
-        "description": "This champion's extends his staff and spins it around repeatedly, gaining Move Speed.<br><br>Enemies struck take damage and are knocked up.",
+        "description": "This champion's extends his staff and spins it around repeatedly, gaining Move Speed.Enemies struck take damage and are knocked up.",
         "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/MonkeyKingSpinToWin.png"
     },
     {
@@ -431,7 +431,7 @@
     },
     {
         "name": "Naafiri",
-        "description": "This champion empowers her pack and spawns additional packmates, instantly receiving a burst of speed and vision and gaining a shield the first time she hits another champion.<br><br>After killing another champion for the first time, all effects are refreshed.<br>",
+        "description": "This champion empowers her pack and spawns additional packmates, instantly receiving a burst of speed and vision and gaining a shield the first time she hits another champion.After killing another champion for the first time, all effects are refreshed.",
         "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/NaafiriR.png"
     },
     {
@@ -546,7 +546,7 @@
     },
     {
         "name": "Rengar",
-        "description": "This champion's predatory instincts take over, <font color='#cd90ee'>Camouflaging</font> him and revealing the nearest enemy champion in a large radius around him. During Thrill of the Hunt, This champion gains Move Speed and he can leap to the tracked enemy without being in brush, reducing their armor.",
+        "description": "This champion's predatory instincts take over, Camouflaging him and revealing the nearest enemy champion in a large radius around him. During Thrill of the Hunt, This champion gains Move Speed and he can leap to the tracked enemy without being in brush, reducing their armor.",
         "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/RengarR.png"
     },
     {
@@ -561,7 +561,7 @@
     },
     {
         "name": "Ryze",
-        "description": "Passively, Overload deals even more damage against targets with Flux.<br><br>On cast, This champion creates a portal to a nearby location. After a few seconds, allies standing near the portal are teleported to the target location.",
+        "description": "Passively, Overload deals even more damage against targets with Flux.On cast, This champion creates a portal to a nearby location. After a few seconds, allies standing near the portal are teleported to the target location.",
         "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/RyzeR.png"
     },
     {
@@ -601,7 +601,7 @@
     },
     {
         "name": "Shyvana",
-        "description": "This champion transforms into a dragon and takes flight to a target location. Enemies along her path take damage and are knocked toward her target location.<br><br>This champion passively gains Fury per second and gains 2 Fury on basic attack.",
+        "description": "This champion transforms into a dragon and takes flight to a target location. Enemies along her path take damage and are knocked toward her target location.This champion passively gains Fury per second and gains 2 Fury on basic attack.",
         "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/ShyvanaTransformCast.png"
     },
     {
@@ -756,7 +756,7 @@
     },
     {
         "name": "Viktor",
-        "description": "This champion conjures a singularity on the field which deals magic damage and interrupts enemy channels. The singularity then periodically does magic damage to all nearby enemies. This champion can redirect the singularity.<br><br>Augment: The Chaos Storm moves 25% faster.",
+        "description": "This champion conjures a singularity on the field which deals magic damage and interrupts enemy channels. The singularity then periodically does magic damage to all nearby enemies. This champion can redirect the singularity.Augment: The Chaos Storm moves 25% faster.",
         "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/ViktorChaosStorm.png"
     },
     {
@@ -791,7 +791,7 @@
     },
     {
         "name": "Yasuo",
-        "description": "Blinks to an <factionIonia1>Airborne</factionIonia1> enemy champion, dealing physical damage and holding all <factionIonia1>Airborne</factionIonia1> enemies in the area in the air. Grants maximum Flow but resets all stacks of Gathering Storm.<br><br>For a moderate time afterwards, This champion's critical strikes gain significant Bonus Armor Penetration.",
+        "description": "Blinks to an Airborne enemy champion, dealing physical damage and holding all Airborne enemies in the area in the air. Grants maximum Flow but resets all stacks of Gathering Storm.For a moderate time afterwards, This champion's critical strikes gain significant Bonus Armor Penetration.",
         "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/YasuoR.png"
     },
     {
