@@ -88,18 +88,33 @@ function endQuiz() {
     const completionMessage = document.getElementById("quiz-completed");
     completionMessage.style.display = "block";
 
+    // Afficher un message spécial si le score est 100%
+    if (score === questionLimit) {
+        const specialMessage = document.createElement("div");
+        completionMessage.style.display = "none";
+        specialMessage.style.textAlign = "center";
+        specialMessage.style.color = "green";
+        specialMessage.style.fontSize = "24px";
+        specialMessage.style.fontWeight = "bold";
+        specialMessage.style.width = "-webkit-fill-available"
+        specialMessage.innerHTML = `
+            <p>Great job! Touch grass now!</p>
+            <img src="https://media.tenor.com/CW-0A0q-6ksAAAAM/touching-grass.gif" alt="Touch grass GIF" style="width: 200px; height: auto; margin-top: 20px;">
+        `;
+        questionContainer.appendChild(specialMessage); // Ajouter le message et le GIF à la fin du conteneur
+    }
+
     // Masquer les autres éléments de l'interface
     document.querySelector(".input-group").style.display = "none";
     document.getElementById("hard-mode-btn").style.display = "none";
     document.getElementById("restart-btn").style.display = "block";
     document.querySelector(".settings").style.display = "none";
     document.querySelector(".score-timer").style.display = "none";
-    
+
     if (!finalScoreShown) {
         showFinalScore(); // Appeler la fonction pour afficher le score
     }
 }
-
 
 function checkAnswer() {
     const userInput = document.getElementById("championInput").value.trim().toLowerCase();

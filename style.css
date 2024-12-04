@@ -98,9 +98,9 @@ body {
 }
 
 .question-container #quiz-completed {
+    width: -webkit-fill-available;
     display:none;
-    padding-left: 120px;
-    text-align:right; 
+    text-align:center; 
     font-size:36px; 
     font-weight:bold; 
     color:#4caf50;
