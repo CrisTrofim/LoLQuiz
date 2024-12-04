@@ -1,75 +1,105 @@
 let quizData = [];
 let currentIndex = 0;
 let score = 0;
-let timer = 30 * 60; // 25 minutes en secondes
-let totalQuestions = 0; // Nombre total de champions dans le quiz
-let totalAnswers = 0; // Nombre de réponses données (correctes ou non)
-let interval; // Déclare l'intervalle pour pouvoir le nettoyer
-let questionLimit = 169; // Modifier ce nombre pour tester avec moins de questions
+let timer = 30 * 60; // 30 minutes in seconds
+let questionLimit = 169; // Max number of questions
+let totalAnswers = 0;
 let finalScoreShown = false;
 let isHardMode = false;
 
-// Charger les données du quiz
+// Fetch quiz data
 fetch("quiz_data.json")
     .then(response => response.json())
     .then(data => {
         quizData = data;
-        shuffleArray(quizData);  // Mélange les questions de manière aléatoire
-        totalQuestions = quizData.length; // Calcul du total des champions
-        displayNextQuestion();
-        startTimer();
-        // Mettre à jour le compteur total dans le HTML
-        document.getElementById("score").textContent = `Score: ${score}/${totalQuestions}`;
+        shuffleArray(quizData);
     });
 
-function shuffleArray(array) {
-    for (let i = array.length - 1; i > 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1));
-        [array[i], array[j]] = [array[j], array[i]]; // Échange les éléments
-    }
-}
+function startQuiz() {
+    const numQuestions = document.getElementById("numQuestions").value;
+    questionLimit = parseInt(numQuestions, 10);
 
-// Fonction pour activer/désactiver le Mode Hard
-function toggleHardMode() {
-    isHardMode = !isHardMode; // Inverser l'état du mode Hard
-
-    // Mettre à jour le texte du bouton
-    const hardModeBtn = document.getElementById("hard-mode-btn");
-    if (isHardMode) {
-        hardModeBtn.textContent = "Disable Hard Mode";
-    } else {
-        hardModeBtn.textContent = "Enable Hard Mode";
+    if (isNaN(questionLimit) || questionLimit < 1 || questionLimit > 169) {
+        alert("Please enter a valid number between 1 and 169.");
+        return;
     }
 
-    // Réafficher la prochaine question
+    // Hide settings and show quiz UI
+    document.querySelector(".settings").style.display = "none";
+    document.querySelector(".score-timer").style.display = "block";
+    document.querySelector(".question-container").style.display = "flex";
+    document.querySelector(".input-group").style.display = "flex";
+    document.getElementById("hard-mode-btn").style.display = "block";
+
+    // Reset and start the quiz
+    score = 0;
+    currentIndex = 0;
+    totalAnswers = 0;
+    document.getElementById("score").textContent = `Score: 0/${questionLimit}`;
     displayNextQuestion();
+    startTimer();
 }
 
 function displayNextQuestion() {
-    if (currentIndex < questionLimit && totalAnswers < questionLimit) {
+    if (currentIndex < questionLimit) {
         const currentQuestion = quizData[currentIndex];
         document.getElementById("description").textContent = currentQuestion.description;
 
-        // Cacher l'image si le mode Hard est activé
         if (isHardMode) {
-            document.getElementById("ultimateImage").style.display = "none"; // Cacher l'image
+            document.getElementById("ultimateImage").style.display = "none";
         } else {
             document.getElementById("ultimateImage").src = currentQuestion.image;
-            document.getElementById("ultimateImage").style.display = "block"; // Afficher l'image
+            document.getElementById("ultimateImage").style.display = "block";
         }
 
-        document.getElementById("feedback").textContent = ''; // Réinitialiser le feedback
-        document.getElementById("restart-btn").style.display = "none"; // Afficher le bouton
+        document.getElementById("feedback").textContent = '';
     } else {
-        document.getElementById("description").textContent = "Quiz completed!";
-        document.querySelector(".input-group").style.display = "none";
-        document.getElementById("restart-btn").style.display = "block"; // Affiche le bouton
-        if (!finalScoreShown) { // Vérifier si le score final a déjà été affiché
-            showFinalScore();
-            finalScoreShown = true; // Mettre à jour la variable pour indiquer que le score final a été affiché
-        }
+        endQuiz();
     }
 }
+
+function toggleHardMode() {
+    isHardMode = !isHardMode;
+
+    const hardModeButton = document.getElementById("hard-mode-btn");
+    hardModeButton.textContent = isHardMode ? "Disable Hard Mode" : "Enable Hard Mode";
+
+    // Mise à jour de l'affichage pour les questions actuelles
+    displayNextQuestion();
+}
+
+function showFinalScore() {
+    const finalScoreElement = document.getElementById("final-score");
+    finalScoreElement.style.display = "block"; // Assurez-vous que l'élément est visible
+    finalScoreElement.textContent = `Final Score: ${score} / ${questionLimit}`;
+    finalScoreShown = true; // Marquer le score comme affiché
+}
+
+function endQuiz() {
+    // Masquer tous les éléments enfants sauf #quiz-completed
+    const questionContainer = document.querySelector(".question-container");
+    Array.from(questionContainer.children).forEach(child => {
+        if (child.id !== "quiz-completed") {
+            child.style.display = "none";
+        }
+    });
+
+    // Afficher le message "Quiz Completed"
+    const completionMessage = document.getElementById("quiz-completed");
+    completionMessage.style.display = "block";
+
+    // Masquer les autres éléments de l'interface
+    document.querySelector(".input-group").style.display = "none";
+    document.getElementById("hard-mode-btn").style.display = "none";
+    document.getElementById("restart-btn").style.display = "block";
+    document.querySelector(".settings").style.display = "none";
+    document.querySelector(".score-timer").style.display = "none";
+    
+    if (!finalScoreShown) {
+        showFinalScore(); // Appeler la fonction pour afficher le score
+    }
+}
+
 
 function checkAnswer() {
     const userInput = document.getElementById("championInput").value.trim().toLowerCase();
@@ -85,69 +115,41 @@ function checkAnswer() {
         feedbackElement.style.color = "red";
     }
 
-    // Mettre à jour le score avec le total dynamique
-    document.getElementById("score").textContent = `Score: ${score}/${totalQuestions}`;
-
-    // Ajouter un délai avant de passer à la question suivante pour afficher le feedback
+    document.getElementById("score").textContent = `Score: ${score}/${questionLimit}`;
     setTimeout(() => {
         currentIndex++;
-        totalAnswers++; // Augmenter le nombre de réponses données
+        totalAnswers++;
         document.getElementById("championInput").value = "";
         displayNextQuestion();
-    }, 2000); // Afficher le feedback pendant 2 secondes avant de continuer
+    }, 2000);
 }
 
 function startTimer() {
     const timerElement = document.getElementById("timer");
-    interval = setInterval(() => {
-        if (timer <= 0 || totalAnswers >= questionLimit) {
+    let remainingTime = timer;
+    const interval = setInterval(() => {
+        if (remainingTime <= 0 || totalAnswers >= questionLimit) {
             clearInterval(interval);
-            if (!finalScoreShown) { // Vérifier si le score final a déjà été affiché
+            if (!finalScoreShown) {
                 showFinalScore();
-                finalScoreShown = true; // Mettre à jour la variable pour indiquer que le score final a été affiché
             }
         } else {
-            timer--;
-            const minutes = Math.floor(timer / 60);
-            const seconds = timer % 60;
+            remainingTime--;
+            const minutes = Math.floor(remainingTime / 60);
+            const seconds = remainingTime % 60;
             timerElement.textContent = `Time Left: ${minutes}:${seconds.toString().padStart(2, "0")}`;
         }
     }, 1000);
 }
 
-function showFinalScore() {
-    // Afficher le score final
-    document.getElementById("final-score").textContent = `Final Score: ${score}/${questionLimit}`;
-    document.getElementById("final-score").style.display = "block"; // Affiche le score final
-    document.getElementById("restart-btn").style.display = "block"; // Affiche le bouton de redémarrage
-    totalAnswers=2
-    // Vérifier si le joueur a un score de 100%
-    if (score === questionLimit) {
-        // Créer un élément image pour le gif
-        const gifElement = document.createElement("img");
-        gifElement.src = "https://media.tenor.com/CW-0A0q-6ksAAAAM/touching-grass.gif";
-        gifElement.alt = "Touching Grass GIF";
-        gifElement.style.display = "block";
-        gifElement.style.marginTop = "20px"; // Ajouter un peu d'espace pour un meilleur rendu
-        gifElement.id = "gif-grass"
-
-        // Créer un élément texte pour le message
-        const messageElement = document.createElement("p");
-        messageElement.textContent = "Great! Now go touch grass!";
-        messageElement.style.fontSize = "24px";
-        messageElement.style.fontWeight = "bold";
-        messageElement.style.color = "green";
-        messageElement.style.textAlign = "center";
-        messageElement.id = "message-grass"
-
-        // Ajouter le gif et le message à la page
-        document.body.appendChild(gifElement);
-        document.body.appendChild(messageElement);
+function shuffleArray(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
     }
 }
 
 function restartQuiz() {
-    location.reload();  // Rafraîchit la page pour redémarrer le quiz
+    location.reload();
 }
-
 

@@ -5,39 +5,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>League of Legends Quiz</title>
-    <link rel="stylesheet" href="style.css"> <!-- Lien vers le fichier CSS externe -->
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <div class="header">
         <img src="https://brand.riotgames.com/static/a91000434ed683358004b85c95d43ce0/8a20a/lol-logo.png"
             alt="League of Legends Logo" id="lol-logo">
-        <div class="score-timer">
-            <p id="score">Score: 0/165</p>
-            <p id="timer">Time Left: 25:00</p>
+        <div class="score-timer" style="display:none;">
+            <p id="score">Score: 0/169</p>
+            <p id="timer">Time Left: 30:00</p>
         </div>
     </div>
 
     <h1>League of Legends Ultimate Quiz</h1>
-    <div class="question-container">
+    <div class="settings">
+        <label for="numQuestions">Choose number of questions: </label>
+        <input type="number" id="numQuestions" min="1" max="169" value="10">
+        <button onclick="startQuiz()">Start Quiz</button>
+    </div>
+    <div class="question-container" style="display:none;">
         <div class="description">
             <p id="description">Loading...</p>
+            <div id="feedback" class="feedback"></div>
         </div>
         <div class="ultimate-image">
             <img id="ultimateImage" src="" alt="Ultimate Image" style="display:none;">
         </div>
-        <div id="feedback" class="feedback"></div> <!-- Zone de feedback "Correct"/"Wrong" -->
+        <div id="quiz-completed">
+            Quiz Completed
+        </div>
+
     </div>
 
-    <button id="hard-mode-btn" onclick="toggleHardMode()">Enable Hard Mode</button>
+    <button id="hard-mode-btn" onclick="toggleHardMode()" style="display:none;">Enable Hard Mode</button>
 
-    <div class="input-group">
+    <div class="input-group" style="display:none;">
         <input type="text" id="championInput" placeholder="Enter the champion's name">
         <button onclick="checkAnswer()">Submit</button>
     </div>
 
-    <div id="final-score" style="display:block;"></div> <!-- Ajouter cette ligne pour le score final -->
-    <button id="restart-btn" style="display:block" onclick="restartQuiz()">Restart Quiz</button>
+    <div id="final-score" style="display:none;"></div>
+    <button id="restart-btn" style="display:none;" onclick="restartQuiz()">Restart Quiz</button>
 
     <script src="quiz.js"></script>
 </body>
