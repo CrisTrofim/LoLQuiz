@@ -19,6 +19,13 @@ function startQuiz() {
     const numQuestions = document.getElementById("numQuestions").value;
     questionLimit = parseInt(numQuestions, 10);
 
+    document.getElementById("championInput").addEventListener("keydown", function(event) {
+        if (event.key === "Enter") {
+            checkAnswer();  // Appeler la fonction checkAnswer quand "Enter" est pressé
+        }
+    });
+
+
     if (isNaN(questionLimit) || questionLimit < 1 || questionLimit > 169) {
         alert("Please enter a valid number between 1 and 169.");
         return;
@@ -136,7 +143,7 @@ function checkAnswer() {
         totalAnswers++;
         document.getElementById("championInput").value = "";
         displayNextQuestion();
-    }, 2000);
+    }, 1000);
 }
 
 function startTimer() {
