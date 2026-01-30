@@ -2,846 +2,861 @@
     {
         "name": "Aatrox",
         "description": "This champion unleashes his demonic form, fearing nearby enemy minions and gaining attack damage, increased healing, and Move Speed. If he gets a takedown, this effect is extended.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/AatroxR.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/AatroxR.png"
     },
     {
         "name": "Ahri",
         "description": "This champion dashes forward and fires essence bolts, damaging nearby enemies. Spirit Rush can be cast up to three times before going on cooldown, and gains additional recasts when taking down enemy champions.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/AhriR.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/AhriR.png"
     },
     {
         "name": "Akali",
         "description": "This champion leaps in a direction, damaging enemies she strikes. Re-cast: This champion dashes in a direction, executing all enemies she strikes.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/AkaliR.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/AkaliR.png"
     },
     {
         "name": "Akshan",
         "description": "This champion locks onto an enemy champion and starts storing bullets. When released, he fires all stored bullets, dealing damage based on missing health to the first champion, minion, or structure hit.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/AkshanR.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/AkshanR.png"
     },
     {
         "name": "Alistar",
         "description": "This champion lets out a wild roar, removing all crowd control effects on himself, and reducing incoming physical and magical damage for the duration.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/FerociousHowl.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/FerociousHowl.png"
     },
     {
         "name": "Ambessa",
         "description": "This champion blinks to the farthest enemy champion in a line of her choosing and suppresses them upon her arrival. She then slams the enemy into the ground where they take damage and are stunned.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/AmbessaR.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/AmbessaR.png"
     },
     {
         "name": "Amumu",
         "description": "This champion entangles surrounding enemy units in bandages, applying his Curse, damaging and stunning them.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/CurseoftheSadMummy.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/CurseoftheSadMummy.png"
     },
     {
         "name": "Anivia",
         "description": "This champion summons a driving rain of ice and hail to damage her enemies and slow their advance.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/GlacialStorm.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/GlacialStorm.png"
     },
     {
         "name": "Annie",
         "description": "This champion wills her bear Tibbers to life, dealing damage to units in the area. Tibbers can attack and also burns enemies that stand near him.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/AnnieR.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/AnnieR.png"
     },
     {
         "name": "Aphelios",
         "description": "Fire a concentrated blast of moonlight that explodes on enemy champions. Applies the unique effect of This champion' main-hand gun.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/ApheliosR.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/ApheliosR.png"
     },
     {
         "name": "Ashe",
         "description": "This champion fires a missile of ice in a straight line. If the arrow collides with an enemy Champion, it deals damage and stuns the Champion, stunning for longer the farther arrow has traveled. In addition, surrounding enemy units take damage and are slowed.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/EnchantedCrystalArrow.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/EnchantedCrystalArrow.png"
     },
     {
         "name": "Aurelion Sol",
         "description": "Falling Star: This champion crashes a star into the earth. This impact deals magic damage and stuns enemies while also granting Stardust for each enemy champion it hits. Gathering enough Stardust transforms This champion's next Falling Star into The Skies Descend.The Skies Descend: This champion drags a giant star down from the heavens with an increased impact zone and increased damage, knocking up enemies rather than stunning them. A shockwave then spreads from the edge of the impact zone, which damages and slows the enemies it hits. Stardust increases the impact area of both Falling Star and The Skies Descend.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/AurelionSolR.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/AurelionSolR.png"
     },
     {
         "name": "Aurora",
-        "description": "This champion leaps in a direction of her choosing, releasing a shockwave that damages and slows any enemies it hits. Afterward, she creates an area that traps enemies within it and allows This champion to teleport from one side of the area to the other.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/AuroraR.png"
+        "description": "This champion leaps in a direction of her choosing, releasing a shockwave that damages and slows any enemies it hits. Afterward, she creates an area that slows enemies within it and allows This champion to teleport from one side of the area to the other.",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/AuroraR.png"
     },
     {
         "name": "Azir",
         "description": "This champion summons a wall of soldiers which charge forward, knocking back and damaging enemies.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/AzirR.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/AzirR.png"
     },
     {
         "name": "Bard",
         "description": "This champion sends spirit energy arcing to a location, putting all champions, minions, monsters, and turrets hit into stasis for a brief time.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/BardR.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/BardR.png"
     },
     {
         "name": "Bel'Veth",
         "description": "This champion consumes Void coral remnants, transforming into her true form and increasing her max health, attack range, attack speed, and out-of-combat move speed. Consuming the Void coral remnants of a Void epic monster will grant her a longer ultimate duration, as well as the power to summon Void remora.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/BelvethR.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/BelvethR.png"
     },
     {
         "name": "Blitzcrank",
         "description": "Enemies attacked by This champion are marked and take lightning damage after 1 second. Additionally, This champion can activate this ability to remove nearby enemies' shields, damage them, and silence them briefly.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/StaticField.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/StaticField.png"
     },
     {
         "name": "Brand",
         "description": "This champion unleashes a devastating torrent of fire that bounces up to 5 times off of This champion and nearby enemies, dealing magic damage to enemies each time bounce. Bounces prioritize stacking Blaze to max on Champions. If a target is ablaze, Pyroclasm will briefly slow them.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/BrandR.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/BrandR.png"
     },
     {
         "name": "Braum",
         "description": "This champion slams the ground, knocking up enemies nearby and in a line in front of him. A fissure is left along the line that slows enemies.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/BraumRWrapper.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/BraumRWrapper.png"
     },
     {
         "name": "Briar",
         "description": "This champion kicks her pillory's hemolith gemstone, marking the first champion it hits as her prey. She then beelines straight to them, fearing other surrounding enemies upon arriving at her target, and enters a state of complete hemomania. She will pursue her prey until death, gaining the benefits of Blood Frenzy as well as additional Armor, Magic Resistance, Life Steal, and Move Speed.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/BriarR.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/BriarR.png"
     },
     {
         "name": "Caitlyn",
         "description": "This champion takes time to line up the perfect shot, dealing massive damage to a single target at a huge range. Enemy champions can intercept the bullet for their ally.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/CaitlynR.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/CaitlynR.png"
     },
     {
         "name": "Camille",
         "description": "This champion dashes to target champion, anchoring them to the area. She also deals bonus magic damage to the target with her basic attacks.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/CamilleR.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/CamilleR.png"
     },
     {
         "name": "Cassiopeia",
         "description": "This champion releases a swirl of magical energy from her eyes, stunning any enemies in front of her that are facing her and slowing any others with their back turned.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/CassiopeiaR.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/CassiopeiaR.png"
     },
     {
         "name": "Cho'Gath",
         "description": "Devours an enemy unit, dealing a high amount of true damage. If the target is killed, This champion grows, gaining maximum Health.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/Feast.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/Feast.png"
     },
     {
         "name": "Corki",
         "description": "This champion fires a missile toward his target location that explodes on impact, dealing damage to enemies in an area. This champion stores missiles over time, up to a maximum. Every 3rd missile fired will be a Big One, dealing extra damage.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/MissileBarrage.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/MissileBarrage.png"
     },
     {
         "name": "Darius",
         "description": "This champion leaps to an enemy champion and strikes a lethal blow, dealing true damage. This damage is increased for each stack of Hemorrhage on the target. If Noxian Guillotine is a killing blow, its cooldown is refreshed for a brief duration.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/DariusExecute.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/DariusExecute.png"
     },
     {
         "name": "Diana",
         "description": "This champion reveals and draws in all nearby enemies and slows them.If This champion pulls in one or more enemy champions, the moonlight crashes down onto her after a short delay, dealing magic damage in an area around her, increased for each target beyond the first pulled.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/DianaR.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/DianaR.png"
     },
     {
         "name": "Draven",
         "description": "This champion hurls two massive axes to deal physical damage to each unit struck. Whirling Death slowly reverses direction and returns to This champion after striking an enemy champion. This champion may also activate this ability while the axes are in flight to cause it to return early. Deals less damage for each unit hit and resets when the axes reverse direction. Executes enemies who have less health than This champion's number of Adoration stacks.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/DravenRCast.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/DravenRCast.png"
     },
     {
         "name": "Dr. Mundo",
         "description": "This champion pumps himself with chemicals, instantly healing a percent of his missing Health. He then gains Move Speed and regenerates a portion of his maximum Health over a long duration.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/DrMundoR.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/DrMundoR.png"
     },
     {
         "name": "Ekko",
         "description": "This champion shatters his timeline, becoming untargetable and rewinding to a more favorable point in time. He returns to whenever he was a few seconds ago, and heals for a percentage of the damage received in that duration. Enemies near his arrival zone take massive damage.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/EkkoR.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/EkkoR.png"
     },
     {
         "name": "Elise",
         "description": "Transforms into a menacing spider, reducing her attack range in exchange for Move Speed, new abilities, and a Spiderling swarm that will attack her foes.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/EliseR.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/EliseR.png"
     },
     {
         "name": "Evelynn",
         "description": "This champion briefly goes untargetable and decimates the area in front of her before warping backwards a long distance.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/EvelynnR.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/EvelynnR.png"
     },
     {
         "name": "Ezreal",
         "description": "This champion winds up before firing a powerful barrage of energy that deals massive damage to each unit it passes through (damage is reduced for minions and non-epic monsters).",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/EzrealR.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/EzrealR.png"
     },
     {
         "name": "Fiddlesticks",
         "description": "A murder of crows flock wildly around This champion, dealing damage per second to all enemy units in the area.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/FiddleSticksR.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/FiddleSticksR.png"
     },
     {
         "name": "Fiora",
         "description": "This champion reveals all four Vitals on an enemy champion and gains Move Speed while near them. If This champion hits all four Vitals or if the target dies after she has hit at least one, This champion and her allies in the area are healed over the next few seconds.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/FioraR.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/FioraR.png"
     },
     {
         "name": "Fizz",
         "description": "This champion tosses a fish in a direction that attaches to any champion that touches it, slowing the target. After a short delay, a shark erupts from the ground, knocking up the target and knocking any nearby enemies aside. All enemies hit are dealt magic damage and slowed.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/FizzR.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/FizzR.png"
     },
     {
         "name": "Galio",
         "description": "This champion designates an ally's position as his landing spot, granting all allies in the area a magic shield. After a delay This champion smashes down location, knocking up nearby enemies.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/GalioR.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/GalioR.png"
     },
     {
         "name": "Gangplank",
         "description": "This champion signals his ship to bombard an area, slowing and damaging enemies.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/GangplankR.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/GangplankR.png"
     },
     {
         "name": "Garen",
         "description": "This champion calls upon the might of Demacia to attempt to execute an enemy champion.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/GarenR.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/GarenR.png"
     },
     {
         "name": "Gnar",
         "description": "Mega This champion throws everything around him in a chosen direction, dealing damage and slowing them.  Any enemy that hits a wall is stunned and takes bonus damage.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/GnarR.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/GnarR.png"
     },
     {
         "name": "Gragas",
         "description": "This champion hurls his cask to a location, dealing damage and knocking back enemies caught in the blast radius.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/GragasR.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/GragasR.png"
     },
     {
         "name": "Graves",
         "description": "This champion fires an explosive shell dealing heavy damage to the first champion it hits. After hitting a champion or reaching the end of its range, the shell explodes dealing damage in a cone.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/GravesChargeShot.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/GravesChargeShot.png"
     },
     {
         "name": "Gwen",
-        "description": "This champion hurls a needle that slows enemies hit, deals magic damage, and applies A Thousand Cuts to champions hit. This ability can be cast up to two more times, with each cast throwing additional needles and dealing more damage. This champion must hit an enemy between each cast to unlock the next one. ",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/GwenR.png"
+        "description": "This champion hurls a needle that slows enemies hit, deals magic damage, and applies A Thousand Cuts to champions hit. This ability can be cast up to two more times, with each cast throwing additional needles and dealing more damage. ",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/GwenR.png"
     },
     {
         "name": "Hecarim",
         "description": "This champion summons spectral riders and charges forward, dealing magic damage in a line. This champion creates a shockwave when he finishes his charge, causing nearby enemies to flee in terror.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/HecarimUlt.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/HecarimUlt.png"
     },
     {
         "name": "Heimerdinger",
         "description": "This champion invents an upgrade, causing his next spell to have increased effects. ",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/HeimerdingerR.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/HeimerdingerR.png"
     },
     {
         "name": "Hwei",
         "description": "This champion paints a vision of pure despair. The first enemy champion struck becomes the center of an expanding painting that slows and damages nearby enemies. The vision explodes after reaching its maximum size or when the champion dies.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/HweiR.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/HweiR.png"
     },
     {
         "name": "Illaoi",
         "description": "This champion smashes her idol into the ground, dealing physical damage to nearby enemies. A Tentacle spawns for each enemy champion hit.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/IllaoiR.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/IllaoiR.png"
     },
     {
         "name": "Irelia",
         "description": "This champion fires a massive number of blades that explode outward upon hitting an enemy champion. Enemies hit by the blades are damaged and Marked. Afterwards the blades form a wall that will damage and slow enemies that walk through it.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/IreliaR.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/IreliaR.png"
     },
     {
         "name": "Ivern",
         "description": "This champion summons his Sentinel friend Daisy to fight with him. Re-cast command Daisy to attack or move.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/IvernR.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/IvernR.png"
     },
     {
         "name": "Janna",
         "description": "This champion surrounds herself in a magical storm, throwing enemies back. After the storm has settled, soothing winds heal nearby allies while the ability is active.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/ReapTheWhirlwind.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/ReapTheWhirlwind.png"
     },
     {
         "name": "Jarvan IV",
         "description": "This champion heroically leaps into battle at a target with such force that he terraforms the surrounding area to create an arena around them. Nearby enemies are damaged at the moment of impact.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/JarvanIVCataclysm.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/JarvanIVCataclysm.png"
     },
     {
         "name": "Jax",
         "description": "Every third consecutive attack deals additional Magic Damage. Additionally, This champion can activate this ability to deal damage around himself and strengthen his resolve, increasing his Armor and Magic Resist for a short duration.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/JaxR.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/JaxR.png"
     },
     {
         "name": "Jayce",
         "description": "Hammer Stance: Transforms the Mercury Hammer into the Mercury Cannon gaining new abilities and increased range. The first attack in this form reduces the target's Armor and Magic Resist.Cannon Stance: Transforms the Mercury Cannon into the Mercury Hammer gaining new abilities and increasing Armor and Magic Resist. The first attack in this form deals additional magic damage.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/JayceStanceHtG.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/JayceStanceHtG.png"
     },
     {
         "name": "Jhin",
         "description": "This champion channels, transforming Whisper into a shoulder-mounted mega-cannon. It is able to fire 4 super shots at extreme range that pierce through minions and monsters, but stop on the first champion impacted. Whisper cripples enemies hit, which slows them and deals execute damage. The 4th shot is perfectly crafted, epically powerful, and guaranteed to critically strike.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/JhinR.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/JhinR.png"
     },
     {
         "name": "Jinx",
         "description": "This champion fires a super rocket across the map that gains damage as it travels. The rocket will explode upon colliding with an enemy champion, dealing damage to it and surrounding enemies based on their missing Health.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/JinxR.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/JinxR.png"
     },
     {
         "name": "Kai'Sa",
         "description": "This champion dashes near an enemy champion.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/KaisaR.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/KaisaR.png"
     },
     {
         "name": "Kalista",
         "description": "This champion teleports the Oathsworn ally to herself. They gain the ability to dash toward a position, knocking enemy champions back.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/KalistaRx.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/KalistaRx.png"
     },
     {
         "name": "Karma",
         "description": "This champion empowers her next ability to do an additional effect. Mantra is available at level 1 and does not require a skill point.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/KarmaMantra.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/KarmaMantra.png"
     },
     {
         "name": "Karthus",
         "description": "After channeling for 3 seconds, This champion deals damage to all enemy champions.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/KarthusFallenOne.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/KarthusFallenOne.png"
     },
     {
         "name": "Kassadin",
         "description": "This champion teleports to a nearby location dealing damage to nearby enemy units. Multiple Riftwalks in a short period of time cost additional Mana but also deal additional damage.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/RiftWalk.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/RiftWalk.png"
     },
     {
         "name": "Katarina",
         "description": "This champion becomes a flurry of blades, dealing massive magic damage while she channels to the 3 nearest enemy champions.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/KatarinaR.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/KatarinaR.png"
     },
     {
         "name": "Kayle",
         "description": "This champion makes an ally invulnerable and calls upon former Aspects of Justice to purify the area around her target with a holy rain of swords.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/KayleR.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/KayleR.png"
     },
     {
         "name": "Kayn",
         "description": "This champion hides in an enemy's body, dealing massive damage when he bursts out.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/KaynR.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/KaynR.png"
     },
     {
         "name": "Kennen",
         "description": "This champion summons a storm that strikes at nearby enemy champions for magical damage.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/KennenShurikenStorm.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/KennenShurikenStorm.png"
     },
     {
         "name": "Kha'Zix",
         "description": "Each rank allows This champion to evolve one of his abilities, giving it a unique additional effect. When activated, This champion becomes Invisible, triggering Unseen Threat and increasing Move Speed. If he chooses to Evolve Adaptive Cloaking, Void Assault gains increased Invisibility duration, and an additional use.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/KhazixR.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/KhazixR.png"
     },
     {
         "name": "Kindred",
         "description": "Lamb grants all living things inside a zone a respite from death. Until the effect ends, nothing can die. At the end, units are healed.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/KindredR.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/KindredR.png"
     },
     {
         "name": "Kled",
         "description": "This champion and Skaarl charge to a location, leaving a speed-granting trail behind them and gaining a shield. Skaarl locks onto and rams the first enemy champion encountered.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/KledR.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/KledR.png"
     },
     {
         "name": "Kog'Maw",
         "description": "This champion fires an artillery shell at a great distance dealing magic damage (increased significantly on low health enemies) and revealing non-stealthed targets. Additionally, multiple Living Artilleries in a short period of time cause them to cost additional Mana.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/KogMawLivingArtillery.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/KogMawLivingArtillery.png"
     },
     {
         "name": "K'Sante",
         "description": "This champion knocks an enemy back, launching them through any wall in their path. Then, This champion goes All Out and dashes after them, gaining increased damage, healing, and transformed abilities at the cost of reduced defenses.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/KSanteR.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/KSanteR.png"
     },
     {
         "name": "LeBlanc",
         "description": "This champion casts a mimicked version of one of her basic spells.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/LeblancR.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/LeblancR.png"
     },
     {
         "name": "Lee Sin",
         "description": "This champion performs a powerful roundhouse kick launching his target back, dealing physical damage to the target and any enemies they collide with. Enemies the target collides with are knocked into the air for a short duration. This technique was taught to him by Jesse Perring, although This champion does not kick players off the map.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/LeeSinR.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/LeeSinR.png"
     },
     {
         "name": "Leona",
         "description": "This champion calls down a beam of solar energy, dealing damage to enemies in an area. Enemies in the center of the area are stunned, while enemies on the outside are slowed.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/LeonaSolarFlare.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/LeonaSolarFlare.png"
     },
     {
         "name": "Lillia",
         "description": "This champion causes all enemies with Dream Dust on them to become Drowsy before falling asleep. Those enemies will take extra damage on being forcibly woken up.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/LilliaR.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/LilliaR.png"
     },
     {
         "name": "Lissandra",
         "description": "If cast on an enemy champion, the target is frozen solid, stunning it. If cast on This champion, she encases herself in dark ice, healing herself while becoming untargetable and invulnerable. Dark ice then emanates from the target dealing magic damage to enemies and slowing Move Speed.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/LissandraR.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/LissandraR.png"
     },
     {
         "name": "Lucian",
         "description": "This champion unleashes a torrent of shots from his weapons.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/LucianR.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/LucianR.png"
     },
     {
         "name": "Lulu",
         "description": "This champion enlarges an ally, knocking nearby enemies into the air and granting the ally a large amount of bonus health. For the next few seconds, that ally gains an aura that slows nearby enemies.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/LuluR.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/LuluR.png"
     },
     {
         "name": "Lux",
         "description": "After gathering energy, This champion fires a beam of light that deals damage to all targets in the area. In addition, triggers This champion's passive ability and refreshes the Illumination debuff duration.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/LuxR.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/LuxR.png"
     },
     {
         "name": "Malphite",
         "description": "This champion launches himself to a location at high speed, damaging enemies and knocking them into the air.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/UFSlash.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/UFSlash.png"
     },
     {
         "name": "Malzahar",
         "description": "This champion channels the essence of the Void to suppress an enemy champion over a zone of damaging negative energy.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/MalzaharR.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/MalzaharR.png"
     },
     {
         "name": "Maokai",
         "description": "This champion summons a colossal wall of brambles and thorns that slowly advances forwards, damaging and rooting any enemies in the path.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/MaokaiR.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/MaokaiR.png"
     },
     {
         "name": "Master Yi",
         "description": "This champion moves with unparalleled agility, temporarily increasing his Move Speed and Attack Speed as well as making him immune to all slowing effects. While active, Champion kills or assists extend Highlander's duration. Passively reduces cooldown for his other abilities on a kill or assist.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/Highlander.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/Highlander.png"
+    },
+    {
+        "name": "Mel",
+        "description": "This champion strikes all enemies marked with Overwhelm regardless of their distance from her, dealing additional damage for each stack of Overwhelm.Ranks of Golden Eclipse increase Overwhelm's damage.",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/MelR.png"
     },
     {
         "name": "Milio",
         "description": "This champion unleashes a wave of soothing flames that heal and remove crowd control effects from allies in range.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/MilioR.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/MilioR.png"
     },
     {
         "name": "Miss Fortune",
         "description": "This champion channels a barrage of bullets into a cone in front of her, dealing large amounts of damage to enemies. Each wave of Bullet Time can critically strike",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/MissFortuneBulletTime.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/MissFortuneBulletTime.png"
     },
     {
         "name": "Wukong",
         "description": "This champion's extends his staff and spins it around repeatedly, gaining Move Speed.Enemies struck take damage and are knocked up.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/MonkeyKingSpinToWin.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/MonkeyKingSpinToWin.png"
     },
     {
         "name": "Mordekaiser",
         "description": "This champion drags his victim to a different dimension with him and steals a portion of their stats. If he kills them, he keeps the stats until the victim respawns.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/MordekaiserR.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/MordekaiserR.png"
     },
     {
         "name": "Morgana",
         "description": "This champion unleashes the full force of her Celestial power as she unbinds her wings and hovers above the ground. She lashes chains of dark pain onto nearby enemy champions, gaining Move Speed. The chains slow and deal initial damage and, after a delay, stun those who are unable to break them.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/MorganaR.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/MorganaR.png"
     },
     {
         "name": "Naafiri",
-        "description": "This champion empowers her pack and spawns additional packmates, instantly receiving a burst of speed and vision and gaining a shield the first time she hits another champion.After killing another champion for the first time, all effects are refreshed.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/NaafiriR.png"
+        "description": "This champion and her packmates dash at a champion, dealing damage. This champion reveals nearby enemies if she scores a takedown and can recast this Ability once. The second cast grants a shield.",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/NaafiriW.png"
     },
     {
         "name": "Nami",
         "description": "Summons a massive Tidal Wave that knocks up, slows, and damages enemies. Allies hit gain double the effect of Surging Tides.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/NamiR.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/NamiR.png"
     },
     {
         "name": "Nasus",
         "description": "This champion unleashes a mighty sandstorm that batters nearby enemies. While the storm rages, he gains increased Health, Attack Range, damages nearby enemies, has a reduced cooldown on Siphoning Strike, and gains bonus Armor and Magic Resistance.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/NasusR.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/NasusR.png"
     },
     {
         "name": "Nautilus",
         "description": "This champion fires a shockwave into the earth that chases an opponent. This shockwave rips up the earth above it, knocking enemies into the air. When it reaches the opponent, the shockwave erupts, knocking his target into the air and stunning them.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/NautilusGrandLine.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/NautilusGrandLine.png"
     },
     {
         "name": "Neeko",
-        "description": "After a short preparation, This champion leaps into the air. Upon landing, nearby enemies are damaged and knocked up. The preparation is hidden if This champion is disguised.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/NeekoR.png"
+        "description": "After a short preparation, This champion leaps into the air, knocking up all nearby enemies. Upon landing, nearby enemies are damaged and stunned. The preparation is hidden if This champion is disguised.",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/NeekoR.png"
     },
     {
         "name": "Nidalee",
         "description": "This champion transforms into a cougar, gaining new abilities.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/AspectOfTheCougar.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/AspectOfTheCougar.png"
     },
     {
         "name": "Nilah",
         "description": "Twirling her whip-blade in joyful exuberance, This champion deals damage to enemies around her before pulling them closer with her weapon.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/NilahR.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/NilahR.png"
     },
     {
         "name": "Nocturne",
         "description": "This champion reduces the sight radius of all enemy champions and removes their ally vision in the process. He can then launch himself at a nearby enemy champion.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/NocturneParanoia.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/NocturneParanoia.png"
     },
     {
         "name": "Nunu & Willump",
         "description": "This champion create a powerful blizzard in an area that slows enemies and deals massive damage at the end.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/NunuR.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/NunuR.png"
     },
     {
         "name": "Olaf",
         "description": "This champion passively gains increased armor and magic resist. He can activate this ability to become immune to disables for as long as he keeps attacking.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/OlafRagnarok.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/OlafRagnarok.png"
     },
     {
         "name": "Orianna",
         "description": "This champion commands her Ball to unleash a shockwave, dealing magic damage and launching nearby enemies towards the Ball after a short delay.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/OrianaDetonateCommand.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/OrianaDetonateCommand.png"
     },
     {
         "name": "Ornn",
         "description": "This champion summons a massive elemental at a location which travels toward him with increasing speed. Enemies run over by the elemental take damage, are slowed and are made Brittle. This champion can recast the ability to charge into the elemental, redirecting it in the direction he hits it, causing the elemental to affect any enemies it runs over to be knocked up, dealing the same damage and re-applying Brittle.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/OrnnR.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/OrnnR.png"
     },
     {
         "name": "Pantheon",
         "description": "This champion composes himself and then leaps into the air, landing at a chosen location as a comet.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/PantheonR.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/PantheonR.png"
     },
     {
         "name": "Poppy",
         "description": "This champion channels a hammer strike that knocks enemies very far away.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/PoppyR.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/PoppyR.png"
     },
     {
         "name": "Pyke",
         "description": "This champion blinks to and executes low health enemies, allowing him to cast this spell again and granting additional gold to an ally who assists.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/PykeR.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/PykeR.png"
     },
     {
         "name": "Qiyana",
         "description": "This champion sends out a shockwave that detonates whatever elements she hits with it, stunning and damaging nearby enemies.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/QiyanaR.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/QiyanaR.png"
     },
     {
         "name": "Quinn",
         "description": "This champion and Valor team up to fly around at great speed.  Ending the ability casts Skystrike, which deals damage to nearby enemies and marks champions as Vulnerable.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/QuinnR.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/QuinnR.png"
     },
     {
         "name": "Rakan",
         "description": "Gains Move Speed, charming and dealing magic damage to enemies touched.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/RakanR.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/RakanR.png"
     },
     {
         "name": "Rammus",
         "description": "This champion hops into the air and slams down at a target area, dealing magic damage and slowing enemies. If cast while This champion is in Powerball, This champion knocks up enemies near the center as well.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/Tremors2.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/Tremors2.png"
     },
     {
         "name": "Rek'Sai",
-        "description": "This champion passively marks targets by damaging them. She can activate this ability to become briefly untargetable and lunge at a marked target for heavy damage based on their missing health.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/RekSaiR.png"
+        "description": "This champion passively marks targets by damaging them. She can activate this ability to become briefly untargetable and lunge at a marked target for heavy damage based on their maximum health.",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/RekSaiR.png"
     },
     {
         "name": "Rell",
         "description": "This champion explodes in a magnetic fury, violently Pulling nearby enemies toward herself. Then This champion constantly Drags nearby enemies toward herself for a short while, dealing magic damage over time.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/RellR.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/RellR.png"
     },
     {
         "name": "Renata Glasc",
         "description": "Renata sends out a wave of chemicals, causing any enemies hit to go Berserk.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/RenataR.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/RenataR.png"
     },
     {
         "name": "Renekton",
         "description": "This champion transforms into the Tyrant form, gaining bonus Health and dealing damage to enemies around him. While in this form, This champion gains Fury periodically.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/RenektonReignOfTheTyrant.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/RenektonReignOfTheTyrant.png"
     },
     {
         "name": "Rengar",
         "description": "This champion's predatory instincts take over, Camouflaging him and revealing the nearest enemy champion in a large radius around him. During Thrill of the Hunt, This champion gains Move Speed and he can leap to the tracked enemy without being in brush, reducing their armor.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/RengarR.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/RengarR.png"
     },
     {
         "name": "Riven",
         "description": "This champion empowers her keepsake weapon with energy, and gains Attack Damage and Range. During this time, she also gains the ability to use Wind Slash, a powerful ranged attack, once.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/RivenFengShuiEngine.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/RivenFengShuiEngine.png"
     },
     {
         "name": "Rumble",
         "description": "This champion fires off a group of rockets, creating a wall of flames that damages and slows enemies.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/RumbleCarpetBomb.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/RumbleCarpetBomb.png"
     },
     {
         "name": "Ryze",
         "description": "Passively, Overload deals even more damage against targets with Flux.On cast, This champion creates a portal to a nearby location. After a few seconds, allies standing near the portal are teleported to the target location.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/RyzeR.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/RyzeR.png"
     },
     {
         "name": "Samira",
         "description": "This champion unleashes a torrent of shots from her weapons, wildly shooting all enemies surrounding her.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/SamiraR.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/SamiraR.png"
     },
     {
         "name": "Sejuani",
         "description": "This champion throws her bola that freezes and stuns the first champion hit and creates an ice storm that slows other enemies.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/SejuaniR.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/SejuaniR.png"
     },
     {
         "name": "Senna",
         "description": "This champion calls upon the relic stones of fallen Sentinels, splitting her relic cannon into a holy array of shadow and light. She then fires a global beam that shields allies from harm, while damaging enemies caught in the center.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/SennaR.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/SennaR.png"
     },
     {
         "name": "Seraphine",
         "description": "This champion deals damage and charms enemies hit, refreshing the range with every allied or enemy champion hit.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/SeraphineR.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/SeraphineR.png"
     },
     {
         "name": "Sett",
         "description": "This champion carries an enemy champion through the air and slams them into the ground, dealing damage and slowing all enemies near where they land.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/SettR.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/SettR.png"
     },
     {
         "name": "Shaco",
         "description": "This champion creates an illusion of himself near him, which can attack nearby enemies (Deals reduced damage to turrets).  Upon death, it explodes, spawning three mini Jack in the Boxes and dealing damage to nearby enemies.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/HallucinateFull.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/HallucinateFull.png"
     },
     {
         "name": "Shen",
         "description": "This champion shields target allied champion from incoming damage, and soon after teleports to their location.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/ShenR.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/ShenR.png"
     },
     {
         "name": "Shyvana",
         "description": "This champion transforms into a dragon and takes flight to a target location. Enemies along her path take damage and are knocked toward her target location.This champion passively gains Fury per second and gains 2 Fury on basic attack.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/ShyvanaTransformCast.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/ShyvanaTransformCast.png"
     },
     {
         "name": "Singed",
         "description": "This champion drinks a potent brew of chemicals, granting him increased combat stats, and making his Poison Trail apply Grievous Wounds.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/InsanityPotion.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/InsanityPotion.png"
     },
     {
         "name": "Sion",
         "description": "This champion charges in a direction, ramping up speed over time. He can steer his charge slightly with the mouse cursor location. When he collides with an enemy he deals damage and knocks them up based on the distance he has charged.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/SionR.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/SionR.png"
     },
     {
         "name": "Sivir",
         "description": "This champion leads her allies in battle, granting them a surge of Move Speed for a period of time. In addition, This champion's attacks reduce her spell cooldowns.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/SivirR.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/SivirR.png"
     },
     {
         "name": "Skarner",
         "description": "This champion's tails lash forward to suppress enemy champions. Once suppressed, the victims will be dragged along by This champion as he moves around.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/SkarnerR.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/SkarnerR.png"
     },
     {
         "name": "Smolder",
         "description": "This champion calls his mom to breath fire from above, dealing extra damage and slowing enemies in the center of her fire.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/SmolderR.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/SmolderR.png"
     },
     {
         "name": "Sona",
-        "description": "This champion plays her ultimate chord, stunning enemy champions and forcing them to dance and dealing magic damage to them. Each rank reduces the base cooldown of This champion's basic abilities.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/SonaR.png"
+        "description": "This champion plays her ultimate chord, stunning enemy champions and forcing them to dance and dealing magic damage to them.",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/SonaR.png"
     },
     {
         "name": "Soraka",
         "description": "This champion fills her allies with hope, instantly restoring health to herself and all allied champions.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/SorakaR.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/SorakaR.png"
     },
     {
         "name": "Swain",
         "description": "This champion transforms into a demon and drains health from nearby enemy champions, minions, and neutral monsters. This champion can cast Demonflare to decimate and slow nearby enemies with a nova of soulfire. This form is indefinite as long as This champion drains enemy champions.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/SwainR.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/SwainR.png"
     },
     {
         "name": "Sylas",
         "description": "This champion steals the enemy's ultimate ability and can cast it freely.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/SylasR.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/SylasR.png"
     },
     {
         "name": "Syndra",
         "description": "This champion bombards an enemy Champion with all of her Dark Spheres.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/SyndraR.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/SyndraR.png"
     },
     {
         "name": "Tahm Kench",
         "description": "This champion devours a champion for a few seconds, dealing magic damage if they are an enemy, or shielding them if they are an ally.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/TahmKenchRWrapper.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/TahmKenchRWrapper.png"
     },
     {
         "name": "Taliyah",
         "description": "This champion creates a very long wall and then surfs it.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/TaliyahR.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/TaliyahR.png"
     },
     {
         "name": "Talon",
         "description": "This champion disperses a ring of blades and becomes Invisible while gaining additional Move Speed. When This champion emerges from Invisibility, the blades converge on his location. Each time the blades move, Shadow Assault deals physical damage to enemies hit by at least one blade.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/TalonR.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/TalonR.png"
     },
     {
         "name": "Taric",
         "description": "Pulses cosmic energy onto nearby allied champions after a delay, making them invulnerable for a short duration.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/TaricR.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/TaricR.png"
     },
     {
         "name": "Teemo",
         "description": "This champion throws an explosive poisonous trap using one of the mushrooms stored in his pack. If an enemy steps on the trap, it will release a poisonous cloud, slowing enemies and damaging them over time. If This champion throws a mushroom onto another mushroom it will bounce, gaining additional range.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/TeemoR.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/TeemoR.png"
     },
     {
         "name": "Thresh",
         "description": "A prison of walls that slow and deal damage if broken.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/ThreshRPenta.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/ThreshRPenta.png"
     },
     {
         "name": "Tristana",
         "description": "This champion loads a massive cannonball into her weapon and fires it at an enemy unit. This deals Magic Damage and knocks the target back. If the target is carrying the Explosive Charge bomb, the bomb detonation radius is doubled.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/TristanaR.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/TristanaR.png"
     },
     {
         "name": "Trundle",
         "description": "This champion immediately steals a percent of his target's Health, Armor and Magic Resistance. Over the next 4 seconds the amount of Health, Armor, and Magic Resistance stolen is doubled.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/TrundlePain.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/TrundlePain.png"
     },
     {
         "name": "Tryndamere",
         "description": "This champion's lust for battle becomes so strong that he is unable to die, no matter how wounded he becomes.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/UndyingRage.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/UndyingRage.png"
     },
     {
         "name": "Twisted Fate",
         "description": "This champion predicts the fortunes of his foes, revealing all enemy champions and enabling the use of Gate, which teleports This champion to any target location in 1.5 seconds.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/Destiny.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/Destiny.png"
     },
     {
         "name": "Twitch",
         "description": "This champion unleashes the full power of his crossbow, shooting bolts over a great distance that pierce all enemies caught in their path.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/TwitchFullAutomatic.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/TwitchFullAutomatic.png"
     },
     {
         "name": "Udyr",
         "description": "This champion surrounds himself in a glacial storm, damaging and slowing nearby enemies. Recast: Empower and unleash the storm, causing it to track enemies and deal additional damage.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/UdyrR.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/UdyrR.png"
     },
     {
         "name": "Urgot",
         "description": "This champion fires a chem-drill that impales the first enemy champion hit. If that champion falls below a health threshold, This champion judges them weak and can execute them.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/UrgotR.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/UrgotR.png"
     },
     {
         "name": "Varus",
         "description": "This champion flings out a damaging tendril of corruption that immobilizes the first enemy champion hit and then spreads towards nearby uninfected champions, immobilizing them too on contact.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/VarusR.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/VarusR.png"
     },
     {
         "name": "Vayne",
         "description": "Readying herself for an epic confrontation, This champion gains increased Attack Damage, Invisibility during Tumble, reduced Tumble cooldown, and more bonus Move Speed from Night Hunter",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/VayneInquisition.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/VayneInquisition.png"
     },
     {
         "name": "Veigar",
         "description": "Blasts target enemy champion, dealing a large amount of magic damage, increasing based on the target's missing health.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/VeigarR.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/VeigarR.png"
     },
     {
         "name": "Vel'Koz",
         "description": "This champion unleashes a channelled beam that follows the cursor for 2.5 seconds that deals magic damage. Organic Deconstruction Researches enemy champions causing them to take true damage instead.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/VelkozR.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/VelkozR.png"
     },
     {
         "name": "Vex",
         "description": "Fire a missile that marks an enemy champion.  Recast to dash to them and deal damage.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/VexR.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/VexR.png"
     },
     {
         "name": "Vi",
         "description": "This champion runs down an enemy, knocking aside anyone in the way. When she reaches her target she knocks it into the air, jumps after it, and slams it back into the ground.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/ViR.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/ViR.png"
     },
     {
         "name": "Viego",
         "description": "This champion teleports to a nearby location and executes an enemy champion on arrival, piercing their heart and causing a destructive shockwave around them that knocks away their allies.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/ViegoR.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/ViegoR.png"
     },
     {
         "name": "Viktor",
-        "description": "This champion conjures a singularity on the field which deals magic damage and interrupts enemy channels. The singularity then periodically does magic damage to all nearby enemies. This champion can redirect the singularity.Augment: The Chaos Storm moves 25% faster.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/ViktorChaosStorm.png"
+        "description": "This champion conjures an Arcane Storm on the field, dealing magic damage and interrupting enemy channels. The storm periodically does magic damage to all nearby enemies and can be redirected by This champion.Augment: The Arcane Storm moves 25% faster, and whenever champions die after taking damage from it, the storm grows and increases in its duration.",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/ViktorR.png"
     },
     {
         "name": "Vladimir",
         "description": "This champion infects an area with a virulent plague. Affected enemies take increased damage for the duration. After a few seconds, Hemoplague deals magic damage to infected enemies and heals This champion for each enemy Champion hit.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/VladimirHemoplague.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/VladimirHemoplague.png"
     },
     {
         "name": "Volibear",
         "description": "This champion leaps to a target location, Slowing and damaging enemies beneath him while gaining bonus Health.  Enemy towers near his landing location become temporarily disabled.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/VolibearR.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/VolibearR.png"
     },
     {
         "name": "Warwick",
         "description": "This champion leaps in a direction (scaling with his bonus Move Speed), suppressing the first champion he collides with for 1.5 seconds.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/WarwickR.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/WarwickR.png"
     },
     {
         "name": "Xayah",
         "description": "This champion leaps into the air becoming untargetable and throwing out a fan of daggers, dropping Feathers she can recall.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/XayahR.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/XayahR.png"
     },
     {
         "name": "Xerath",
         "description": "This champion immobilizes himself and gains numerous long-range barrages.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/XerathLocusOfPower2.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/XerathLocusOfPower2.png"
     },
     {
         "name": "Xin Zhao",
-        "description": "This champion challenges an enemy he damaged recently. This champion deals damage to nearby enemies based on their current Health and knocks non-challenged targets back, becoming impervious to damage dealt by champions outside of the circle created.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/XinZhaoR.png"
+        "description": "This champion passively challenges an enemy he damaged recently. When activated, This champion deals damage to nearby enemies based on their current Health and knocks non-challenged targets back, becoming impervious to damage dealt by champions outside of the circle created.",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/XinZhaoR.png"
     },
     {
         "name": "Yasuo",
         "description": "Blinks to an Airborne enemy champion, dealing physical damage and holding all Airborne enemies in the area in the air. Grants maximum Flow but resets all stacks of Gathering Storm.For a moderate time afterwards, This champion's critical strikes gain significant Bonus Armor Penetration.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/YasuoR.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/YasuoR.png"
     },
     {
         "name": "Yone",
         "description": "This champion blinks behind the last champion in a line with a slash so powerful it pulls all enemies hit towards him.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/YoneR.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/YoneR.png"
     },
     {
         "name": "Yorick",
         "description": "This champion summons the Maiden of the Mist that causes This champion's attacks against the Maiden's target to deal bonus damage. The Maiden will also automatically raise Walkers from dead enemies.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/YorickR.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/YorickR.png"
+    },
+    {
+        "name": "Yunara",
+        "description": "This champion enters a Transcendent State that upgrades her basic Abilities.",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/YunaraR.png"
     },
     {
         "name": "Yuumi",
         "description": "This champion channels five waves that damage enemies and heal allies. This champion can move, attach, and cast Zoomies! while channeling. While on her Best Friend, this spell also follows her mouse.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/YuumiR.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/YuumiR.png"
+    },
+    {
+        "name": "Zaahen",
+        "description": "This champion rises then stabs downward, damaging enemies and healing for a portion of the damage dealt.",
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/ZaahenR.png"
     },
     {
         "name": "Zac",
         "description": "This champion bounces four times, knocking up enemies hit and slowing them.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/ZacR.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/ZacR.png"
     },
     {
         "name": "Zed",
         "description": "This champion becomes untargetable and dashes to an enemy champion, marking them. After 3 seconds the mark triggers, repeating a portion of all the damage This champion dealt to the target while they were marked.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/ZedR.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/ZedR.png"
     },
     {
         "name": "Zeri",
         "description": "This champion discharges a nova of electricity and overcharges herself, gaining increased damage and stacking Move Speed that refreshes and gets stronger every time she hits an enemy champion. While overcharged, Burst fire becomes a faster triple shot that chains lightning between enemies.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/ZeriR.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/ZeriR.png"
     },
     {
         "name": "Ziggs",
         "description": "This champion deploys his ultimate creation, the Mega Inferno Bomb, hurling it an enormous distance. Enemies in the primary blast zone take more damage than those farther away.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/ZiggsR.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/ZiggsR.png"
     },
     {
         "name": "Zilean",
         "description": "This champion places a protective time rune on an allied champion, teleporting the champion back in time if they take lethal damage.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/ChronoShift.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/ChronoShift.png"
     },
     {
         "name": "Zoe",
         "description": "Blink to a nearby position for 1 second. Then blink back.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/ZoeR.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/ZoeR.png"
     },
     {
         "name": "Zyra",
         "description": "This champion summons a twisted thicket at her target location, dealing damage to enemies as it expands and knocking them airborne as it contracts. Plants within the thicket are enraged.",
-        "image": "https://ddragon.leagueoflegends.com/cdn/14.23.1/img/spell/ZyraR.png"
+        "image": "https://ddragon.leagueoflegends.com/cdn/16.2.1/img/spell/ZyraR.png"
     }
 ]

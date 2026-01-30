@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LoL Draft Picker</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./draft.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="hamburger" onclick="toggleMenu()">
+            <span></span><span></span><span></span>
+        </div>
+        <div class="nav-title">LoL Companion - Draft</div>
+    </nav>
+
+    <div id="side-menu" class="side-menu">
+        <a href="javascript:void(0)" class="closebtn" onclick="toggleMenu()">&times;</a>
+        <div class="menu-items">
+            <a href="index.html">LoL Quiz</a>
+            <a href="#" class="active">Draft Picker</a>
+            <a href="#">Build Maker</a>
+        </div>
+    </div>
+
+    <div class="draft-container">
+        <div class="team blue-side">
+            <div class="bans-container" id="blue-bans">
+                <div class="ban-slot" onclick="selectSlot(this)"></div>
+                <div class="ban-slot" onclick="selectSlot(this)"></div>
+                <div class="ban-slot" onclick="selectSlot(this)"></div>
+                <div class="ban-slot" onclick="selectSlot(this)"></div>
+                <div class="ban-slot" onclick="selectSlot(this)"></div>
+            </div>
+            <div class="picks-container">
+                <div class="pick-slot" onclick="selectSlot(this)">
+                    <div class="role-icon">TOP</div>
+                </div>
+                <div class="pick-slot" onclick="selectSlot(this)">
+                    <div class="role-icon">JNG</div>
+                </div>
+                <div class="pick-slot" onclick="selectSlot(this)">
+                    <div class="role-icon">MID</div>
+                </div>
+                <div class="pick-slot" onclick="selectSlot(this)">
+                    <div class="role-icon">ADC</div>
+                </div>
+                <div class="pick-slot" onclick="selectSlot(this)">
+                    <div class="role-icon">SUP</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="champion-picker">
+            <input type="text" id="searchChamp" placeholder="Rechercher un champion..." oninput="filterChampions()">
+            <div class="champion-grid" id="championGrid">
+            </div>
+        </div>
+
+        <div class="team red-side">
+            <div class="bans-container" id="red-bans">
+                <div class="ban-slot" onclick="selectSlot(this)"></div>
+                <div class="ban-slot" onclick="selectSlot(this)"></div>
+                <div class="ban-slot" onclick="selectSlot(this)"></div>
+                <div class="ban-slot" onclick="selectSlot(this)"></div>
+                <div class="ban-slot" onclick="selectSlot(this)"></div>
+            </div>
+            <div class="picks-container">
+                <div class="pick-slot" onclick="selectSlot(this)">
+                    <div class="role-icon">TOP</div>
+                </div>
+                <div class="pick-slot" onclick="selectSlot(this)">
+                    <div class="role-icon">JNG</div>
+                </div>
+                <div class="pick-slot" onclick="selectSlot(this)">
+                    <div class="role-icon">MID</div>
+                </div>
+                <div class="pick-slot" onclick="selectSlot(this)">
+                    <div class="role-icon">ADC</div>
+                </div>
+                <div class="pick-slot" onclick="selectSlot(this)">
+                    <div class="role-icon">SUP</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./draft.js"></script>
+</body>
+
+</html>
