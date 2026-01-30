@@ -1,54 +1,87 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>League of Legends Quiz</title>
+    <title>League of Legends Ultimate Quiz</title>
     <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
-    <div class="header">
-        <img src="https://brand.riotgames.com/static/a91000434ed683358004b85c95d43ce0/8a20a/lol-logo.png"
-            alt="League of Legends Logo" id="lol-logo">
-        <div class="score-timer" style="display:none;">
-            <p id="score">Score: 0/169</p>
-            <p id="timer">Time Left: 30:00</p>
+
+    <nav class="navbar">
+        <div class="hamburger" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="nav-title">LoL Companion</div>
+    </nav>
+
+    <div id="side-menu" class="side-menu">
+        <a href="javascript:void(0)" class="closebtn" onclick="toggleMenu()">&times;</a>
+        <div class="menu-items">
+            <a href="#" class="active">LoL Quiz</a>
+            <a href="#">Draft Picker</a>
+            <a href="#">Build Maker</a>
         </div>
     </div>
 
-    <h1>League of Legends Ultimate Quiz</h1>
-    <div class="settings">
-        <label for="numQuestions">Choose number of questions (max 169) : </label>
-        <input type="number" id="numQuestions" min="1" max="169" value="10">
-        <button onclick="startQuiz()">Start Quiz</button>
-    </div>
-    <div class="question-container" style="display:none;">
-        <div class="description">
-            <p id="description">Loading...</p>
-            <div id="feedback" class="feedback"></div>
-        </div>
-        <div class="ultimate-image">
-            <img id="ultimateImage" src="" alt="Ultimate Image" style="display:none;">
-        </div>
-        <div id="quiz-completed">
-            Quiz Completed
+    <div class="main-content">
+        <div class="header">
+            <img src="https://brand.riotgames.com/static/a91000434ed683358004b85c95d43ce0/8a20a/lol-logo.png"
+                alt="League of Legends Logo" id="lol-logo">
+            <div class="score-timer" id="stats-display" style="display:none;">
+                <p id="score">Score: 0/169</p>
+                <p id="timer">Time Left: 30:00</p>
+            </div>
         </div>
 
+        <h1>League of Legends Ultimate Quiz</h1>
+
+        <div class="settings" id="settings-box">
+            <label for="numQuestions">Nombre de questions (max 169) : </label>
+            <input type="number" id="numQuestions" min="1" max="169" value="10">
+            <button class="btn-primary" onclick="startQuiz()">Start Quiz</button>
+        </div>
+
+        <div class="question-container" style="display:none;">
+            <div class="description">
+                <p id="description">Loading...</p>
+                <div id="feedback" class="feedback"></div>
+            </div>
+            <div class="ultimate-image">
+                <img id="ultimateImage" src="" alt="Ultimate Image" style="display:none;">
+            </div>
+            <div id="quiz-completed">
+                Quiz Terminé !
+            </div>
+        </div>
+
+        <button id="hard-mode-btn" onclick="toggleHardMode()" style="display:none;">Enable Hard Mode</button>
+
+        <div class="input-group" style="display:none;">
+            <input type="text" id="championInput" placeholder="Nom du champion...">
+            <button class="btn-submit" onclick="checkAnswer()">Submit</button>
+        </div>
+
+        <div id="final-score" style="display:none;"></div>
+        <button id="restart-btn" class="btn-restart" style="display:none;" onclick="restartQuiz()">Restart Quiz</button>
     </div>
-
-    <button id="hard-mode-btn" onclick="toggleHardMode()" style="display:none;">Enable Hard Mode</button>
-
-    <div class="input-group" style="display:none;">
-        <input type="text" id="championInput" placeholder="Enter the champion's name">
-        <button onclick="checkAnswer()">Submit</button>
-    </div>
-
-    <div id="final-score" style="display:none;"></div>
-    <button id="restart-btn" style="display:none;" onclick="restartQuiz()">Restart Quiz</button>
 
     <script src="./quiz.js"></script>
+    <script>
+        // Fonction pour le menu hamburger
+        function toggleMenu() {
+            const menu = document.getElementById("side-menu");
+            if (menu.style.width === "250px") {
+                menu.style.width = "0";
+            } else {
+                menu.style.width = "250px";
+            }
+        }
+    </script>
 </body>
 
 </html>

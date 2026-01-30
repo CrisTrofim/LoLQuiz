@@ -1,262 +1,199 @@
-/* Réinitialisation des styles par défaut */
-body, h1, label, input, button {
-    text-align: center;
+/* --- Réinitialisation et Base --- */
+* {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    padding-bottom: 20px;
-    font-family: 'Arial', sans-serif;
-    box-sizing: border-box;
 }
 
-p {
-    margin: 0;
-    padding: 0;
-    margin-right: 20px;
-    font-family: 'Arial', sans-serif;
-    box-sizing: border-box;
-}
-
-/* Fond et mise en page */
 body {
     background-color: #1e1e2e;
     color: #fff;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    height: 100vh;
-    padding: 20px;
+    padding-top: 80px; /* Espace pour la navbar fixe */
+}
+
+/* --- Barre de Navigation --- */
+.navbar {
+    width: 100%;
+    height: 60px;
+    background-color: #12121c;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    border-bottom: 2px solid #c4b998;
+}
+
+.hamburger {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 18px;
+    width: 25px;
+}
+
+.hamburger span {
+    height: 3px;
+    width: 100%;
+    background-color: #c4b998;
+    border-radius: 3px;
+}
+
+.nav-title {
+    margin-left: 20px;
+    font-weight: bold;
+    color: #c4b998;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* --- Menu Latéral --- */
+.side-menu {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 2000;
+    top: 0;
+    left: 0;
+    background-color: #12121c;
+    overflow-x: hidden;
+    transition: 0.4s;
+    padding-top: 60px;
+    box-shadow: 5px 0 15px rgba(0,0,0,0.7);
+}
+
+.side-menu a {
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #a0a0b8;
+    display: block;
+    transition: 0.3s;
+}
+
+.side-menu a:hover, .side-menu a.active {
+    color: #c4b998;
+    background-color: #27293d;
+}
+
+.side-menu .closebtn {
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    font-size: 36px;
+}
+
+/* --- Layout du Contenu --- */
+.main-content {
+    width: 90%;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 
 .header {
-    text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 #lol-logo {
     width: 200px;
-    margin-bottom: 10px;
+    height: auto;
 }
 
-/* Section des paramètres */
-.settings {
+h1 {
+    margin-bottom: 25px;
+    color: #c4b998;
+}
+
+/* --- Composants du Quiz --- */
+.settings, .question-container {
     background-color: #27293d;
-    padding: 15px;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+    width: 100%;
+    max-width: 500px;
+    margin-bottom: 20px;
 }
 
 .settings label {
-    font-size: 18px;
-    margin-right: 10px;
+    display: block;
+    margin-bottom: 15px;
+    font-size: 1.1rem;
 }
 
 .settings input {
-    width: 60px;
-    padding: 5px;
-    border: none;
+    width: 80px;
+    padding: 8px;
     border-radius: 5px;
+    border: none;
     background: #3e405b;
     color: #fff;
+    margin-bottom: 15px;
     text-align: center;
 }
 
-.settings button {
-    padding: 10px 20px;
-    background-color: #4caf50;
+/* --- Boutons --- */
+button {
+    cursor: pointer;
     border: none;
     border-radius: 5px;
-    color: #fff;
-    font-size: 16px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-.settings button:hover {
-    background-color: #45a049;
-}
-
-/* Score et timer */
-.score-timer {
-    margin-bottom: 20px;
-    font-size: 20px;
     font-weight: bold;
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    max-width: 400px;
+    transition: transform 0.2s, background 0.3s;
 }
 
-/* Conteneur des questions */
-.question-container {
-    text-align: center;
-    background-color: #27293d;
-    padding: 20px;
-    border-radius: 10px;
-    width: 100%;
-    max-width: 500px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
-}
+button:active { transform: scale(0.95); }
 
-.question-container #quiz-completed {
-    width: -webkit-fill-available;
-    display:none;
-    text-align:center; 
-    font-size:36px; 
-    font-weight:bold; 
-    color:#4caf50;
-}
+.btn-primary { padding: 12px 25px; background-color: #4caf50; color: white; }
+.btn-primary:hover { background-color: #45a049; }
 
+.btn-submit { padding: 12px 25px; background-color: #007bff; color: white; }
+.btn-submit:hover { background-color: #0056b3; }
+
+.btn-restart { padding: 12px 25px; background-color: #ff5722; color: white; margin-top: 20px; }
+
+/* --- Images et Inputs --- */
 .ultimate-image img {
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
     object-fit: cover;
-    border-radius: 100px;
-    margin: 15px 0;
-}
-
-.feedback {
-    margin-top: 20px;
-    font-size: 18px;
-    text-align: center;
-}
-
-/* Entrée et boutons */
-.input-group {
-    margin-top: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    border-radius: 50%;
+    border: 3px solid #c4b998;
+    margin: 20px 0;
 }
 
 .input-group input {
-    padding: 10px;
+    padding: 12px;
     border-radius: 5px;
-    border: none;
-    background: #3e405b;
+    border: 1px solid #3e405b;
+    background: #27293d;
     color: #fff;
-    font-size: 16px;
+    width: 100%;
+    max-width: 300px;
     margin-bottom: 10px;
-    width: 80%;
-    max-width: 400px;
 }
 
-.input-group button {
-    padding: 10px 20px;
-    background-color: #007bff;
-    border: none;
-    border-radius: 5px;
-    color: #fff;
-    font-size: 16px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-.input-group button:hover {
-    background-color: #0056b3;
-}
-
-/* Bouton mode difficile */
-#hard-mode-btn {
-    margin-top: 10px;
-    padding: 10px 20px;
-    background-color: #e91e63;
-    border: none;
-    border-radius: 5px;
-    color: #fff;
-    cursor: pointer;
-    font-size: 16px;
-    transition: background-color 0.3s;
-}
-
-#hard-mode-btn:hover {
-    background-color: #c2185b;
-}
-
-/* Bouton redémarrer */
-#restart-btn {
-    padding: 10px 20px;
-    background-color: #ff5722;
-    border: none;
-    border-radius: 5px;
-    color: #fff;
-    cursor: pointer;
-    font-size: 16px;
-    margin-top: 20px;
-    transition: background-color 0.3s;
-}
-
-#restart-btn:hover {
-    background-color: #e64a19;
-}
-
-/* Fin de quiz */
-#final-score {
-    font-size: 24px;
-    font-weight: bold;
-    text-align: center;
-    margin-top: 20px;
-}
-
-.description {
+.score-timer {
     display: flex;
-    flex-direction: column;
-    justify-content: center; /* Centre verticalement */
-    align-items: center; /* Centre horizontalement */
-    height: 100%; /* S'assure que l'élément prend toute la hauteur disponible */
+    gap: 20px;
+    justify-content: center;
+    font-size: 1.2rem;
+    color: #c4b998;
+    margin-top: 10px;
 }
 
-/* Pour les écrans de 600px ou moins (smartphones en portrait) */
-@media screen and (max-width: 600px) {
-    body {
-        padding: 10px;
-    }
-
-    .settings {
-        width: 100%;
-        padding: 10px;
-    }
-
-    .question-container {
-        width: 100%;
-        padding: 10px;
-    }
-
-    .input-group input {
-        width: 100%;
-    }
-
-    #lol-logo {
-        width: 150px; /* Réduit la taille du logo */
-    }
-}
-
-/* Pour les écrans entre 601px et 1024px (tablettes et petits écrans) */
-@media screen and (max-width: 1024px) {
-    .question-container {
-        max-width: 80%;
-    }
-
-    .input-group input {
-        width: 70%;
-    }
-
-    #lol-logo {
-        width: 180px;
-    }
-
-    .settings {
-        width: 50%;
-    }
-}
-
-/* Pour les écrans plus grands (ordinateurs de bureau) */
-@media screen and (min-width: 1025px) {
-    .question-container {
-        max-width: 500px; /* La largeur reste fixe à 500px */
-    }
-
-    .settings {
-        width: 50%px;
-    }
+/* --- Responsivité --- */
+@media (max-width: 600px) {
+    #lol-logo { width: 150px; }
+    h1 { font-size: 1.5rem; }
+    .settings, .question-container { padding: 20px; }
 }
