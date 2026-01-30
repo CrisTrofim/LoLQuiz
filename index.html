@@ -43,45 +43,36 @@
         <div class="settings" id="settings-box">
             <label for="numQuestions">Nombre de questions (max 169) : </label>
             <input type="number" id="numQuestions" min="1" max="169" value="10">
-            <button class="btn-primary" onclick="startQuiz()">Start Quiz</button>
+            <button class="btn btn-primary" onclick="startQuiz()">Start Quiz</button>
         </div>
 
         <div class="question-container" style="display:none;">
-            <div class="description">
+            <div class="description-box">
                 <p id="description">Loading...</p>
                 <div id="feedback" class="feedback"></div>
             </div>
             <div class="ultimate-image">
                 <img id="ultimateImage" src="" alt="Ultimate Image" style="display:none;">
             </div>
-            <div id="quiz-completed">
-                Quiz Terminé !
+            <div id="quiz-completed" style="display:none;">
+                <h2>Quiz Terminé !</h2>
             </div>
         </div>
 
-        <button id="hard-mode-btn" onclick="toggleHardMode()" style="display:none;">Enable Hard Mode</button>
+        <button id="hard-mode-btn" class="btn btn-hard" onclick="toggleHardMode()" style="display:none;">Enable Hard
+            Mode</button>
 
         <div class="input-group" style="display:none;">
             <input type="text" id="championInput" placeholder="Nom du champion...">
-            <button class="btn-submit" onclick="checkAnswer()">Submit</button>
+            <button class="btn btn-submit" onclick="checkAnswer()">Submit</button>
         </div>
 
         <div id="final-score" style="display:none;"></div>
-        <button id="restart-btn" class="btn-restart" style="display:none;" onclick="restartQuiz()">Restart Quiz</button>
+        <button id="restart-btn" class="btn btn-restart" style="display:none;" onclick="restartQuiz()">Restart
+            Quiz</button>
     </div>
 
     <script src="./quiz.js"></script>
-    <script>
-        // Fonction pour le menu hamburger
-        function toggleMenu() {
-            const menu = document.getElementById("side-menu");
-            if (menu.style.width === "250px") {
-                menu.style.width = "0";
-            } else {
-                menu.style.width = "250px";
-            }
-        }
-    </script>
 </body>
 
 </html>
